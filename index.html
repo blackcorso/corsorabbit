@@ -1,1 +1,509 @@
 
+ter<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#" itemscope itemtype="https://schema.org/Game">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corso vs Rabbit Game - Ultimate Survival Game</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Play Corso vs Rabbit Game, the top free online HTML5s urvival game for mobile, tablet, and desktop. for all ages!">
+<meta name="keywords" content="corso game, corso vs rabbit game, h5 game, html 5 game, hml5 games, htm5 game, html game, html canvas game, canvas html game, canvas html5 game, html game canvas, javascript game, js games, javascript game development, js game development, javascript game dev, happy wheels browser, candy crush browser, browser game, dinosaur google games, online drawing game, web browser roblox, browser roblox, fallen london game, roblox browser game, best browser games, top browser games, good browser games, best web browser games, cool browser games, best browser based games, nice browser games, good web browser games, great browser games, escape game online, escape room online, escape room games online, escape room games online free, escape room online free, escape games online free, play escape room online, games snake game, free games, spider solitaire card games, spider solitaire games, spider solitr, aarp games, free solitaire, google solitaire, google solitaire game, freecell card game, freecell games, online game, now gg roblox, free online games, solitaire 247, 247 solitaire games, solitaire games 247, car games, chess online, maths play, pbs kids games, ninja kidz tv, fun games, and fun game">
+  <meta name="last-updated" content="2025-05-31 16:08:54 UTC">
+  <meta name="google-site-verification" content="RSr3FMx8orgDUJ0eSOwKq51S_LNk-xIWJECwv41sgS8" />
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://corsorabbit.pages.dev/">
+  <meta property="og:title" content="Corso vs Rabbit Game - UltimateSurvival Game">
+  <meta property="og:image" content="corsorabbit.png">
+  <meta property="og:description" content="Play Corso vs Rabbit Game, the top free online HTML5survival game for mobile, tablet, and desktop. Survive theapocalypse now!">
+  <meta property="og:site_name" content="Big Bad Dog">
+  
+  <!-- Twitter -->
+  <meta name="twitter:site" content="@thepracticaldev">
+  <meta name="twitter:title" content="Corso vs Rabbit Game - UltimateSurvival Game">
+  <meta name="twitter:description" content="Play Corso vs Rabbit Game, the top free online HTML5survival game for mobile, tablet, and desktop. Survive theapocalypse now!">
+  <meta name="twitter:image:src" content="corsorabbit.png">
+  <meta name="twitter:card" content="summary_large_image">
+  
+  <!-- Robots & Canonical -->
+  <meta name="robots" content="NOODP,INDEX,FOLLOW,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+  <link rel="canonical" href="https://corsorabbit.pages.dev/">
+  <link rel="dns-prefetch" href="//gamezz.pages.dev">
+  <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+  
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="logo.png">
+  <link rel="apple-touch-icon" href="logo.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="logo.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="logo.png">
+  
+  <!-- Theme Colors -->
+  <meta name="apple-mobile-web-app-title" content="Big Bad Dog">
+  <meta name="application-name" content="Big Bad Dog">
+  <meta name="theme-color" content="#1a2735" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1620" media="(prefers-color-scheme: dark)">
+  
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#f0f7ff',
+              100: '#e0f0fe',
+              200: '#bae0fd',
+              300: '#7cc6fb',
+              400: '#36a9f7',
+              500: '#0c8de3',
+              600: '#0270c3',
+              700: '#015a9e',
+              800: '#064b82',
+              900: '#0a3f6c',
+              950: '#072746',
+            },
+            zombie: {
+              50: '#f6f8ec',
+              100: '#e9f0d0',
+              200: '#d6e2a7',
+              300: '#becd76',
+              400: '#a6b64f',
+              500: '#879631',
+              600: '#677325',
+              700: '#4d5620',
+              800: '#3e461e',
+              900: '#363d1d',
+              950: '#1c210d',
+            },
+            dark: {
+              50: '#f6f7f9',
+              100: '#eceef2',
+              200: '#d5dae3',
+              300: '#b0bbca',
+              400: '#8595ad',
+              500: '#657791',
+              600: '#4f5e77',
+              700: '#404c61',
+              800: '#384152',
+              900: '#323946',
+              950: '#1a2735',
+            },
+          },
+        },
+      },
+      darkMode: 'class',
+    }
+  </script>
+  
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4806230501425451" crossorigin="anonymous"></script>
+  
+  <!-- Dark Mode Detection -->
+  <script>
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.documentElement.classList.add('dark');
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+      if (event.matches) {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    });
+  </script>
+</head>
+
+<body class="bg-gray-100 dark:bg-dark-950 text-dark-800 dark:text-gray-200 min-h-screen flex flex-col transition-colors duration-300">
+  <!-- Header/Navigation -->
+  <header class="bg-gradient-to-r from-dark-800 to-dark-900 dark:from-dark-950 dark:to-black sticky top-0 z-50 shadow-md">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center py-4">
+        <!-- Logo -->
+        <div class="flex items-center space-x-2">
+          <img src="logo.png" alt="Big Bad Dog Logo" class="w-10 h-10 rounded-full">
+          <span class="text-white font-bold text-xl">Big Bad Dog</span>
+        </div>
+        
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:block">
+          <ul class="flex space-x-6">
+            <li><a href="https://corsorabbit.pages.dev/" class="text-white hover:text-zombie-300 transition-colors duration-200 font-medium">Home</a></li>
+            <li><a href="#how-to-play" class="text-white hover:text-zombie-300 transition-colors duration-200 font-medium">How to Play</a></li>
+            <li><a href="https://corsorabbit.pages.dev/about" class="text-white hover:text-zombie-300 transition-colors duration-200 font-medium">About</a></li>
+            <li><a href="https://corsorabbit.pages.dev/privacy" class="text-white hover:text-zombie-300 transition-colors duration-200 font-medium">Privacy</a></li>
+            <li><a href="https://corsorabbit.pages.dev/contact" class="text-white hover:text-zombie-300 transition-colors duration-200 font-medium">Contact</a></li>
+          </ul>
+        </nav>
+        
+        <!-- Mobile Menu Button -->
+        <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Mobile Navigation Menu -->
+      <div id="mobile-menu" class="md:hidden hidden pb-4">
+        <ul class="space-y-2">
+          <li><a href="https://corsorabbit.pages.dev/" class="block text-white hover:text-zombie-300 py-2 transition-colors duration-200">Home</a></li>
+          <li><a href="#how-to-play" class="block text-white hover:text-zombie-300 py-2 transition-colors duration-200">How to Play</a></li>
+          <li><a href="https://corsorabbit.pages.dev/about" class="block text-white hover:text-zombie-300 py-2 transition-colors duration-200">About</a></li>
+          <li><a href="https://corsorabbit.pages.dev/privacy" class="block text-white hover:text-zombie-300 py-2 transition-colors duration-200">Privacy</a></li>
+          <li><a href="https://corsorabbit.pages.dev/contact" class="block text-white hover:text-zombie-300 py-2 transition-colors duration-200">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow container mx-auto px-4 py-8 md:flex">
+    <!-- Game Content (Left) -->
+    <div class="md:w-2/3 md:pr-8">
+      <!-- Hero Section -->
+      <section class="bg-white dark:bg-dark-900 rounded-xl shadow-lg overflow-hidden mb-8">
+        <div class="relative">
+          <img src="bigdoghead-gameplay.png" alt="Corso vs Rabbit Game" class="w-full h-64 md:h-96 object-cover object-center">
+          <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+            <div class="p-6 text-white">
+              <h1 class="text-3xl md:text-4xl font-bold mb-2">Big Bad Dog</h1>
+              <p class="text-lg md:text-xl opacity-90">A tense and frustrating Dog vs Rabbit game</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="flex flex-wrap gap-4 mb-6">
+            <a href="https://corsorabbit.pages.dev/gameplay" class="inline-flex items-center justify-center px-6 py-3 bg-zombie-600 hover:bg-zombie-700 text-white font-medium rounded-lg transition-all duration-200 transform hover:scale-105 shadow-md">
+              <span>Play Now</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="#how-to-play" class="inline-flex items-center justify-center px-6 py-3 bg-gray-200 hover:bg-gray-300 dark:bg-dark-800 dark:hover:bg-dark-700 text-dark-800 dark:text-gray-200 font-medium rounded-lg transition-all duration-200">
+              <span>How to Play</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5 10a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" clip-rule="evenodd" />
+                <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v8a1 1 0 11-2 0V6a1 1 0 011-1z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+          <p class="text-lg leading-relaxed">
+            Corso vs Rabbit Game is the latest version of the hit survival tense and frustrating game that puts your survival skills to the test. Navigate through a big headed dog, collect carrots, and jump & run to stay alive in this thrilling adventure.
+          </p>
+        </div>
+      </section>
+      
+      <!-- AdSense Banner -->
+      <div class="bg-white dark:bg-dark-900 rounded-xl shadow-lg p-4 mb-8 text-center overflow-hidden">
+        <div class="mx-auto">
+          <!-- AdSense Ad Unit -->
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4806230501425451" data-ad-slot="7908568111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+      
+      <!-- How to Play Section -->
+      <section id="how-to-play" class="bg-white dark:bg-dark-900 rounded-xl shadow-lg overflow-hidden mb-8">
+        <div class="bg-zombie-600 dark:bg-zombie-800 p-4">
+          <h2 class="text-white text-2xl font-bold">How to Play</h2>
+        </div>
+        <div class="p-6">
+          <div class="grid md:grid-cols-2 gap-6">
+            <div class="space-y-4">
+              <div class="flex items-start">
+                <div class="bg-zombie-100 dark:bg-dark-800 p-3 rounded-full mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-zombie-600 dark:text-zombie-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg mb-1">Movement Controls</h3>
+                  <p>Mouse click  or tap to jump and running.</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start">
+                <div class="bg-zombie-100 dark:bg-dark-800 p-3 rounded-full mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-zombie-600 dark:text-zombie-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg mb-1">Resource Collection</h3>
+                  <p>Collect resources by approaching carrot. These can be used for boost your energy to survive</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="space-y-4">
+              <div class="flex items-start">
+                <div class="bg-zombie-100 dark:bg-dark-800 p-3 rounded-full mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-zombie-600 dark:text-zombie-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 12a4 4 0 10-8 0 4 4 0 008 0zm0 0v1.5a2.5 2.5 0 005 0V12a9 9 0 10-9 9m4.5-1.206a8.959 8.959 0 01-4.5 1.207" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg mb-1">Combat System</h3>
+                  <p>Click or tap as fast as possible to avoid the big headed dog that will eat you</p>
+                </div>
+              </div>
+              
+              <div class="flex items-start">
+                <div class="bg-zombie-100 dark:bg-dark-800 p-3 rounded-full mr-4">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-zombie-600 dark:text-zombie-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                  </svg>
+                </div>
+                <div>
+                  <h3 class="font-bold text-lg mb-1">Crafting & Upgrades</h3>
+                  <p>Open the inventory with Tab key. Combine items to craft weapons, tools, and survival equipment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="mt-8 p-4 bg-gray-100 dark:bg-dark-800 rounded-lg">
+            <h3 class="font-bold text-lg mb-2">Game Role</h3>
+            <p>You play as a rabbit being chased by a fierce dog with a big head. Run as fast as you can to avoid the big head dog that will eat you. Catch carrots to increase your energy</p>
+          </div>
+        </div>
+      </section>
+      <center><h2>Another Game</h2></center>
+      <!-- AdSense In-Content -->
+      <div class="bg-white dark:bg-dark-900 rounded-xl shadow-lg p-4 mb-8 text-center overflow-hidden">
+        <div class="mx-auto">
+          <!-- AdSense Ad Unit -->
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4806230501425451" data-ad-slot="7908568111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Sidebar (Right) -->
+    <aside class="md:w-1/3 mt-8 md:mt-0">
+      <!-- Play Now Button (Mobile Only) -->
+      <div class="md:hidden mb-6">
+        <a href="https://corsorabbit.pages.dev/gameplay" class="flex items-center justify-center w-full px-6 py-4 bg-zombie-600 hover:bg-zombie-700 text-white font-bold rounded-lg transition-all duration-200 transform hover:scale-105 shadow-md text-center text-lg">
+          Play Big Bad Dog Now!
+        </a>
+      </div>
+      
+      <!-- Game Stats Card -->
+      <div class="bg-white dark:bg-dark-900 rounded-xl shadow-lg overflow-hidden mb-6">
+        <div class="bg-dark-800 dark:bg-dark-950 p-4">
+          <h2 class="text-white text-xl font-bold">Game Stats</h2>
+        </div>
+        <div class="p-4">
+          <div class="space-y-4">
+            <div class="flex justify-between items-center border-b dark:border-dark-700 pb-2">
+              <span class="font-medium">Game Version</span>
+              <span class="bg-zombie-100 dark:bg-dark-800 text-zombie-800 dark:text-zombie-300 px-2 py-1 rounded text-sm">v2.0.3</span>
+            </div>
+            <div class="flex justify-between items-center border-b dark:border-dark-700 pb-2">
+              <span class="font-medium">Players</span>
+              <span>Single Player</span>
+            </div>
+            <div class="flex justify-between items-center border-b dark:border-dark-700 pb-2">
+              <span class="font-medium">Difficulty Levels</span>
+              <span>3</span>
+            </div>
+            <div class="flex justify-between items-center border-b dark:border-dark-700 pb-2">
+              <span class="font-medium">Playable Characters</span>
+              <span>4</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="font-medium">Last Updated</span>
+              <span>March 6, 2025</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- AdSense Sidebar -->
+      <div class="bg-white dark:bg-dark-900 rounded-xl shadow-lg p-4 mb-6 text-center overflow-hidden">
+        <div class="mx-auto">
+          <!-- AdSense Ad Unit -->
+          <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4806230501425451" data-ad-slot="7908568111" data-ad-format="auto" data-full-width-responsive="true"></ins>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+      </div>
+      
+      <!-- Featured Weapons -->
+      <div class="bg-white dark:bg-dark-900 rounded-xl shadow-lg overflow-hidden mb-6">
+        <div class="bg-dark-800 dark:bg-dark-950 p-4">
+          <h2 class="text-white text-xl font-bold">Featured Weapons</h2>
+        </div>
+        <div class="p-4">
+          <ul class="space-y-4">
+            <li class="flex items-center space-x-3">
+              <div class="bg-gradient-to-br from-zombie-400 to-zombie-600 w-12 h-12 rounded-lg flex items-center justify-center text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 12H6" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold">Reinforced Bat</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Melee weapon with high damage</p>
+              </div>
+            </li>
+            <li class="flex items-center space-x-3">
+              <div class="bg-gradient-to-br from-zombie-400 to-zombie-600 w-12 h-12 rounded-lg flex items-center justify-center text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold">Crossbow</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Silent ranged weapon</p>
+              </div>
+            </li>
+            <li class="flex items-center space-x-3">
+              <div class="bg-gradient-to-br from-zombie-400 to-zombie-600 w-12 h-12 rounded-lg flex items-center justify-center text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-bold">Shock Baton</h3>
+                <p class="text-sm text-gray-600 dark:text-gray-400">Stuns zombies temporarily</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Community Links -->
+      <div class="bg-white dark:bg-dark-900 rounded-xl shadow-lg overflow-hidden">
+        <div class="bg-dark-800 dark:bg-dark-950 p-4">
+          <h2 class="text-white text-xl font-bold">Join Our Community</h2>
+        </div>
+        <div class="p-4">
+          <div class="space-y-3">
+            <a href="#" class="flex items-center space-x-3 p-3 bg-blue-50 dark:bg-dark-800 rounded-lg hover:bg-blue-100 dark:hover:bg-dark-700 transition-colors">
+              <svg class="h-6 w-6 text-blue-500" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"/>
+              </svg>
+              <span>Facebook Community</span>
+            </a>
+            <a href="#" class="flex items-center space-x-3 p-3 bg-blue-50 dark:bg-dark-800 rounded-lg hover:bg-blue-100 dark:hover:bg-dark-700 transition-colors">
+              <svg class="h-6 w-6 text-blue-400" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723 10.054 10.054 0 01-3.127 1.184 4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z"/>
+              </svg>
+              <span>Twitter</span>
+            </a>
+            <a href="#" class="flex items-center space-x-3 p-3 bg-blue-50 dark:bg-dark-800 rounded-lg hover:bg-blue-100 dark:hover:bg-dark-700 transition-colors">
+              <svg class="h-6 w-6 text-red-500" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
+              </svg>
+              <span>YouTube Channel</span>
+            </a>
+            <a href="https://corsorabbit.pages.dev/discord" class="flex items-center space-x-3 p-3 bg-blue-50 dark:bg-dark-800 rounded-lg hover:bg-blue-100 dark:hover:bg-dark-700 transition-colors">
+              <svg class="h-6 w-6 text-indigo-500" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3847-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/>
+              </svg>
+              <span>Discord Server</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="bg-dark-900 dark:bg-black text-white mt-12 py-8">
+    <div class="container mx-auto px-4">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+          <div class="flex items-center space-x-2">
+            <img src="bigdoghead-gameplay.png" alt="Big Bad Dog Logo" class="w-8 h-8 rounded-full">
+            <span class="text-xl font-bold">Big Bad Dog</span>
+          </div>
+          <p class="mt-2 text-gray-400 max-w-md">Experience the thrill of survival in ourapocalypse game. Will you make it out alive?</p>
+        </div>
+        
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Game</h3>
+            <ul class="space-y-2">
+              <li><a href="https://corsorabbit.pages.dev/gameplay" class="text-gray-400 hover:text-white transition-colors">Play Now</a></li>
+              <li><a href="#how-to-play" class="text-gray-400 hover:text-white transition-colors">How to Play</a></li>
+              <li><a href="https://corsorabbit.pages.dev/updates" class="text-gray-400 hover:text-white transition-colors">Updates</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Info</h3>
+            <ul class="space-y-2">
+              <li><a href="https://corsorabbit.pages.dev/about" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+              <li><a href="https://corsorabbit.pages.dev/privacy" class="text-gray-400 hover:text-white transition-colors">Privacy</a></li>
+              <li><a href="https://corsorabbit.pages.dev/disclaimer" class="text-gray-400 hover:text-white transition-colors">Disclaimer</a></li>
+            </ul>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-semibold mb-3">Contact</h3>
+            <ul class="space-y-2">
+              <li><a href="https://corsorabbit.pages.dev/contact" class="text-gray-400 hover:text-white transition-colors">Contact Us</a></li>
+              <li><a href="https://corsorabbit.pages.dev/support" class="text-gray-400 hover:text-white transition-colors">Support</a></li>
+              <li><a href="https://corsorabbit.pages.dev/feedback" class="text-gray-400 hover:text-white transition-colors">Feedback</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+        <p class="text-gray-400">&copy; 2025 Big Bad Dog. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- JavaScript -->
+  <script>
+    // Mobile Menu Toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    
+    // Add UTM parameters to links
+    document.querySelectorAll('a').forEach(link => {
+      // Only modify links that are absolute and to our own domain
+      if (link.href.includes('corsorabbit.pages.dev')) {
+        const url = new URL(link.href);
+        url.searchParams.set('utm_source', 'game_website');
+        url.searchParams.set('utm_medium', 'web');
+        url.searchParams.set('utm_campaign', 'homepage');
+        link.href = url.toString();
+      }
+    });
+    
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop - 80,
+            behavior: 'smooth'
+          });
+          
+          // Close mobile menu if open
+          if (!mobileMenu.classList.contains('hidden')) {
+            mobileMenu.classList.add('hidden');
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>
