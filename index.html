@@ -1,5 +1,4 @@
-
-ter<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" prefix="og: https://ogp.me/ns#" itemscope itemtype="https://schema.org/Game">
 <head>
   <meta charset="UTF-8">
@@ -12,26 +11,36 @@ ter<!DOCTYPE html>
   <meta name="last-updated" content="2025-05-31 16:08:54 UTC">
   <meta name="google-site-verification" content="RSr3FMx8orgDUJ0eSOwKq51S_LNk-xIWJECwv41sgS8" />
   
+  
   <!-- Open Graph / Social Media -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://corsorabbit.pages.dev/">
   <meta property="og:title" content="Corso vs Rabbit Game - UltimateSurvival Game">
   <meta property="og:image" content="corsorabbit.png">
-  <meta property="og:description" content="Play Corso vs Rabbit Game, the top free online HTML5survival game for mobile, tablet, and desktop. Survive theapocalypse now!">
+  <meta property="og:description" content="Play Corso vs Rabbit Game, the top free online HTML5 survival game for mobile, tablet, and desktop. For All Ages!">
   <meta property="og:site_name" content="Big Bad Dog">
   
   <!-- Twitter -->
   <meta name="twitter:site" content="@thepracticaldev">
   <meta name="twitter:title" content="Corso vs Rabbit Game - UltimateSurvival Game">
-  <meta name="twitter:description" content="Play Corso vs Rabbit Game, the top free online HTML5survival game for mobile, tablet, and desktop. Survive theapocalypse now!">
+  <meta name="twitter:description" content="Play Corso vs Rabbit Game, the top free online HTML5 survival game for mobile, tablet, and desktop. For All Ages!">
   <meta name="twitter:image:src" content="corsorabbit.png">
   <meta name="twitter:card" content="summary_large_image">
   
   <!-- Robots & Canonical -->
-  <meta name="robots" content="NOODP,INDEX,FOLLOW,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='robots'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='Googlebot'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='Googlebot desktop'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='Googlebot smartphone'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='Googlebot Image'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='Googlebot News'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='Google Publisher Center'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='MegaIndex'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='AhrefsBot'/>
+<meta content='index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1' name='dotbot'/>
   <link rel="canonical" href="https://corsorabbit.pages.dev/">
-  <link rel="dns-prefetch" href="//gamezz.pages.dev">
-  <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+  <link rel="dns-prefetch" href="https://corsorabbit.pages.dev">
+  <link rel="preconnect" href="//pagead2.googlesyndication.com">
   
   <!-- Favicons -->
   <link rel="icon" type="image/x-icon" href="logo.png">
@@ -167,7 +176,7 @@ ter<!DOCTYPE html>
       <!-- Hero Section -->
       <section class="bg-white dark:bg-dark-900 rounded-xl shadow-lg overflow-hidden mb-8">
         <div class="relative">
-          <img src="bigdoghead-gameplay.png" alt="Corso vs Rabbit Game" class="w-full h-64 md:h-96 object-cover object-center">
+          <img src="corsorabbit.png" alt="Corso vs Rabbit Game" class="w-full h-64 md:h-96 object-cover object-center">
           <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
             <div class="p-6 text-white">
               <h1 class="text-3xl md:text-4xl font-bold mb-2">Big Bad Dog</h1>
@@ -474,11 +483,11 @@ ter<!DOCTYPE html>
     // Add UTM parameters to links
     document.querySelectorAll('a').forEach(link => {
       // Only modify links that are absolute and to our own domain
-      if (link.href.includes('corsorabbit.pages.dev')) {
+      if (link.href.includes('gamezz.pages.dev')) {
         const url = new URL(link.href);
         url.searchParams.set('utm_source', 'game_website');
         url.searchParams.set('utm_medium', 'web');
-        url.searchParams.set('utm_campaign', 'homepage');
+        url.searchParams.set('utm_campaign', 'homepage_v2');
         link.href = url.toString();
       }
     });
