@@ -1,4 +1,4 @@
-Corso vs Rabbit is the latest version of the thrilling and often frustrating survival genre, designed to test your skills in facing challenges. In this game, you play as a clever rabbit, navigating a vibrant world while being pursued by a fierce, big-headed dog.
+Corso Rabbit Game is an HTML5 online game or browser game (no download required) that can be played on all devices and all ages, designed to test your skills in facing challenges. In this game, you play as a clever rabbit, navigating a vibrant world while being pursued by a fierce, big-headed dog.
 
 Your Role
 
